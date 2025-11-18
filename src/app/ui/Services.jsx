@@ -6,37 +6,150 @@ import { ArrowRight, Shield, CheckCircle, Clock, DollarSign } from "lucide-react
 export default function Services() {
   const services = [
     {
-      title: "COOK / CHEF",
-      salary: "$5000",
+      title: "Software Engineer",
+      salary: "CAD 9,000-10,000/Month",
       currency: "CANADIAN DOLLAR",
-      dutyTime: "8 HOURS",
-      image: "/images/1.jpg", // Add your image path
-      description: "Professional cooking position with competitive salary and benefits in Canadian restaurants and hotels."
+      vaccancies:"4",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
     },
     {
-      title: "SOUS CHEF",
-      salary: "$6000",
+      title: "Chemical Engineer",
+      salary: "CAD 9,000-9,500/Month",
       currency: "CANADIAN DOLLAR",
-      dutyTime: "8 HOURS",
-      image: "/images/2.webp", // Add your image path
-      description: "Assistant head chef position with leadership responsibilities and higher compensation package."
+      vaccancies:"21",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
     },
     {
-      title: "PASTRY CHEF",
-      salary: "$5500",
+      title: "StoreKeepers",
+      salary: "$4000/Month",
       currency: "CANADIAN DOLLAR",
-      dutyTime: "8 HOURS",
-      image: "/images/3.webp", // Add your image path
-      description: "Specialized in baking and pastry arts, creating desserts and baked goods for established bakeries."
+      Contract:" 2 years",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
     },
     {
-      title: "LINE COOK",
-      salary: "$4500",
+      title: "Cleaners",
+      salary: "$3500",
+
       currency: "CANADIAN DOLLAR",
-      dutyTime: "8 HOURS",
-      image: "/images/4.webp", // Add your image path
-      description: "Entry-level cooking position with opportunities for growth and skill development in Canadian cuisine."
-    }
+      Contract:" 2 years",
+      vaccancies:"633",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    },
+     {
+      title: "Fruit Packing",
+      salary: "$3500",
+
+      currency: "CANADIAN DOLLAR",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    },
+     {
+      title: "Nurse",
+      salary: "CAD 4,500-5,000/Month",
+      currency: "CANADIAN DOLLAR",
+      vaccancies:"31",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    }, 
+    {
+      title: "Security Guard",
+      salary: "$3500/Month",
+
+      currency: "CANADIAN DOLLAR",
+      Contract:" 2 years",
+      vaccancies:"19",
+
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    },
+    {
+      title: "Construction Worker",
+      salary: "CAD 3,500-4,500/Month",
+      currency: "CANADIAN DOLLAR",
+      vaccancies:"321",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    }, 
+    {
+      title: "AC/ HVAC Technician/ Mechanic",
+      salary: "CAD 4,500-5,500/Month",
+      currency: "CANADIAN DOLLAR",
+      vaccancies:"16",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    }, 
+    {
+      title: "Plumbers",
+      salary: "$4000/Month",
+      currency: "CANADIAN DOLLAR",
+      Contract:" 2 years",
+      vaccancies:"45",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    },
+    {
+      title: "Electricians",
+      salary: "$4000/Month",
+
+      currency: "CANADIAN DOLLAR",
+      Contract:" 2 years",
+      vaccancies:"54",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    },
+     {
+      title: "Electrical Engineer",
+      salary: "CAD 9,000-9,500/Month",
+      currency: "CANADIAN DOLLAR",
+      vaccancies:"9",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    },
+     {
+      title: "Mechanical Engineer",
+      salary: "CAD 8,000-9,000/Month",
+      currency: "CANADIAN DOLLAR",
+      vaccancies:"17",
+      Address: "9519 Keele St, Maple, ON L6A 4A2",
+      // dutyTime: "8 HOURS",
+      image: "/images/canada.png", // Add your image path
+      description: "Eden company canada"
+    },
+
   ];
 
   return (
@@ -115,13 +228,13 @@ export default function Services() {
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full bg-black brightness-50 object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 
                 {/* Title Overlay */}
-                <div className="absolute bottom-4 left-4 right-4">
-                  <h3 className="text-xl font-bold text-white drop-shadow-lg">
+                <div className=" bottom-4 left-4 right-4">
+                  <h3 className="text-2xl font-bold text-white drop-shadow-lg">
                     {service.title}
                   </h3>
                 </div>
@@ -129,6 +242,11 @@ export default function Services() {
 
               {/* Content */}
               <div className="p-6 space-y-4">
+                <div className=" bottom-4 left-4 right-4">
+                  <h3 className="text-4xl font-bold text-red-700 text-center drop-shadow-lg">
+                    {service.title}
+                  </h3>
+                </div>
                 {/* Salary Info */}
                 <div className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl border border-blue-100">
                   <div className="text-center flex-1">
@@ -140,12 +258,20 @@ export default function Services() {
                   </div>
                 </div>
 
-                {/* Duty Time */}
+                {/* vaccanicies Time */}
                 <div className="flex items-center justify-center gap-3 p-3 bg-gray-50 rounded-xl border border-gray-200">
                   <Clock className="w-4 h-4 text-blue-600" />
                   <div className="text-center">
-                    <div className="text-sm font-semibold text-gray-900">DUTY TIME</div>
-                    <div className="text-lg font-bold text-blue-600">{service.dutyTime}</div>
+                    <div className="text-sm font-semibold text-gray-900">Vaccancies</div>
+                    <div className="text-lg font-bold text-blue-600">{service.vaccancies}</div>
+                  </div>
+                </div>
+                {/* vaccanicies Time */}
+                <div className="flex items-center justify-center gap-3 p-3 bg-gray-50 rounded-xl border border-gray-200">
+                  <Clock className="w-4 h-4 text-blue-600" />
+                  <div className="text-center">
+                    <div className="text-sm font-semibold text-gray-900">Contract</div>
+                    <div className="text-lg font-bold text-blue-600">{service.Contract}</div>
                   </div>
                 </div>
 

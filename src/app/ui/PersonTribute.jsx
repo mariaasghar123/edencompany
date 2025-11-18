@@ -97,9 +97,6 @@ export default function PersonTribute() {
             </motion.p>
           </div>
         </motion.div>
-
-        {/* WARNING BOX */}
-         {/* Warning Alert */}
         
       </div>
     </section>
