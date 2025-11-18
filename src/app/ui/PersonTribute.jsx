@@ -100,64 +100,7 @@ export default function PersonTribute() {
 
         {/* WARNING BOX */}
          {/* Warning Alert */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.7, ease: "easeOut", delay: 0.5 }}
-          className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-red-500 p-8 rounded-2xl shadow-lg relative overflow-hidden"
-        >
-          {/* Background Pattern */}
-          <div className="absolute top-0 right-0 w-32 h-32 bg-red-200/10 rounded-full -translate-y-16 translate-x-16"></div>
-          <div className="absolute bottom-0 left-0 w-24 h-24 bg-orange-200/10 rounded-full translate-y-12 -translate-x-12"></div>
-          
-          <div className="relative z-10">
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
-                <svg className="w-6 h-6 text-red-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-red-800">
-                Important Security Notice
-              </h3>
-            </div>
-
-            <div className="space-y-4">
-              <p className="text-red-700 leading-relaxed text-lg font-medium">
-                Beware of scammers using my name for fraudulent activities
-              </p>
-              
-              <div className="bg-white/50 p-4 rounded-xl border border-red-200">
-                <p className="text-red-600 leading-relaxed">
-                  Recently, it has come to our attention that some individuals are fraudulently using 
-                  Sardar Jagmohan Singh's name to deceive people with false promises of Canada visas or 
-                  job offers. If anyone contacts you claiming to be him and demands money for a visa or 
-                  job, please be aware that these are scams.
-                </p>
-              </div>
-
-              <div className="flex items-center gap-2 text-red-600">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="font-semibold">Never share personal information</span>
-              </div>
-              <div className="flex items-center gap-2 text-red-600">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="font-semibold">Never transfer money to unknown persons</span>
-              </div>
-              <div className="flex items-center gap-2 text-red-600">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span className="font-semibold">Verify all job offers through official channels</span>
-              </div>
-            </div>
-          </div>
-        </motion.div>
+        
       </div>
     </section>
   );
