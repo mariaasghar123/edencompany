@@ -11,10 +11,10 @@ export default function FeesSection() {
 
   // Reference number to fees mapping
   const referenceFees = {
-    CAN6738494716CN11: "Selection Fees: PKR 21,500",
-    CAN462839837CN00: "Job Offer Letter Fees: PKR 25,000",
-    CAN75241800740001: "Work Permit Fees: PKR 175,000",
-    CAN86251692073666: "Appointment Fees: PKR 80,000",
+    CAN6738494716CN11: "Selection Fees: $21,500",
+    CAN462839837CN00: "Job Offer Letter Fees: $25,000",
+    CAN75241800740001: "Work Permit Fees: $175,000",
+    CAN86251692073666: "Appointment Fees: $80,000",
   };
 
   const handleCheck = () => {
