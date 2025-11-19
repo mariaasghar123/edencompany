@@ -27,3 +27,25 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.whatsapp-float {
+  position: fixed;
+  top: 20px;         /* Top se distance */
+  left: 50%;         /* Screen ke center me lane ka basic step */
+  transform: translateX(-50%);  /* EXACT center me lane ke liye */
+  background-color: #25d366;
+  border-radius: 50%;
+  padding: 12px;
+  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float img {
+  width: 40px;
+  height: 40px;
+}
+
+.whatsapp-float:hover {
+  transform: translateX(-50%) scale(1.1); /* Hover effect bhi maintain */
+}
+

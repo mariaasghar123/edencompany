@@ -22,6 +22,20 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* WhatsApp Floating Button */}
+        <a
+  href="https://wa.me/15798995786?text=Hello%21%20I%20need%20assistance."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="whatsapp-float"
+>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    alt="WhatsApp"
+  />
+</a>
+
+
         {children}
       </body>
     </html>

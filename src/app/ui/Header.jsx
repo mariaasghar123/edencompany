@@ -22,7 +22,7 @@ export default function Header() {
               <img
                 src="/images/Edencompany.webp"
                 alt="Tournament Logo"
-                className="relative w-40 h-20"
+                className="relative w-20 h-10 sm:w-40 sm:h-20"
               />
             </div>
 
@@ -58,14 +58,21 @@ export default function Header() {
             Home
           </Link>
           <Link
-            href="/about"
+            href="#about"
             className="block py-3 border-b hover:text-sky-600 transition"
             onClick={() => setOpen(false)}
           >
             About
           </Link>
           <Link
-            href="/contact"
+            href="#services"
+            className="block py-3 border-b hover:text-sky-600 transition"
+            onClick={() => setOpen(false)}
+          >
+            Services
+          </Link>
+          <Link
+            href="#contact"
             className="block py-3 hover:text-sky-600 transition"
             onClick={() => setOpen(false)}
           >
