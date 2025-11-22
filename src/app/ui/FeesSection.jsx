@@ -58,7 +58,7 @@ export default function FeesSection() {
         </motion.p>
 
         {/* TITLES LIST */}
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-y-2 gap-x-8 justify-center">
+        {/* <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-y-2 gap-x-8 justify-center">
           {titles.map((t, i) => (
             <div
               key={i}
@@ -68,7 +68,7 @@ export default function FeesSection() {
               <span className="font-semibold text-gray-700 text-lg">{t}</span>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* BUTTON */}
         <motion.button
